@@ -1,0 +1,51 @@
+Congratulations, your project meets specifications!
+I’ve enjoyed very much reviewing your project, you can be very proud of your good job!
+Here you can find some extra stuff to get an even deeper knowledge on this area:
+
+https://medium.com/@mohankarthik/path-planning-in-highways-for-an-autonomous-vehicle-242b91e6387d
+http://wesscholar.wesleyan.edu/cgi/viewcontent.cgi?article=1856&context=etd_hon_theses
+http://ais.informatik.uni-freiburg.de/teaching/ss10/robotics/slides/16-pathplanning.pdf
+I hope you get them interesting!
+
+Keep up the good job and stay udacious! :D
+
+Compilation
+Code must compile without errors with cmake and make.
+
+Given that we've made CMakeLists.txt as general as possible, it's recommend that you do not change it unless you can guarantee that your changes will still compile on any platform.
+
+Code compiles without errors, great job!
+
+Valid Trajectories
+The top right screen of the simulator shows the current/best miles driven without incident. Incidents include exceeding acceleration/jerk/speed, collision, and driving outside of the lanes. Each incident case is also listed below in more detail.
+
+The car was not involved in any incident during the simulation. :)
+
+The car doesn't drive faster than the speed limit. Also the car isn't driving much slower than speed limit unless obstructed by traffic.
+
+The car does not drive faster than the required speed limit, it also maintains a good speed when not obstructed by traffic. Great!
+
+The car does not exceed a total acceleration of 10 m/s^2 and a jerk of 10 m/s^3.
+
+Acceleration and jerk limits where not overpassed during the simulation, great! :)
+
+The car must not come into contact with any of the other cars on the road.
+
+During a long simulation, the car does not hit other vehicles, great job here as well!
+
+The car doesn't spend more than a 3 second length out side the lane lanes during changing lanes, and every other time the car stays inside one of the 3 lanes on the right hand side of the road.
+
+Lane changes are performed within the allowed 3 seconds. Car only changes lane when required, maintaining the actual lane if not cars are present in the lane. Great job!
+
+The car is able to smoothly change lanes when it makes sense to do so, such as when behind a slower moving car and an adjacent lane is clear of other traffic.
+
+Lane changes are performed in a very smooth way and anticipated with enough time, avoiding that way risky situations. Very good job!
+
+Screenshot 2019-11-29 at 06.50.23.png
+Screenshot 2019-11-29 at 06.52.37.png
+Screenshot 2019-11-29 at 06.53.14.png
+
+Reflection
+The code model for generating paths is described in detail. This can be part of the README or a separate doc labeled "Model Documentation".
+
+Very good job including your discussion on how you’ve implemented the algorithm to generate the paths. :D
